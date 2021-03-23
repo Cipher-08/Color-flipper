@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: #FF0000;
+}
+
+.main {
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+h2,
+span {
+    color: white;
+    background: black;
+    margin: 80px;
+    border-radius: 10px;
+}
+
+.change-color {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+.change-color:hover {
+    height: 45px;
+    width: 110px;
+    background-color: black;
+    color: aliceblue;
+}
